@@ -19,10 +19,11 @@ user = os.environ.get('PAM_USER', default)
 rhost = os.environ.get('PAM_RHOST', default)
 host = socket.gethostname()
 service = os.environ.get('PAM_SERVICE', default)
+session_type = os.environ.get('PAM_TYPE', default)
 
 message = client.messages \
                 .create(
-                     body= user + " logged in from " + rhost + " to " + host + " via " +service + ".",
+                     body= user + " " + session_type + " from " + rhost + " to " + host + " via " +service + ".",
                      from_= from_,
                      to= to,
                  )
