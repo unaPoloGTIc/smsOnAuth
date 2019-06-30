@@ -1,5 +1,5 @@
 # Trex helper in case you get pwnd
-Will send you an SMS after a succesfull login.  
+Will send you an SMS after a succesfull login (and logout).  
 Not before, to prevent spamming you on each botnet attempt.  
 
 ## You will need a Twilio account and number
