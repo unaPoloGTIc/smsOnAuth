@@ -6,6 +6,7 @@ Not before, to prevent spamming you on each botnet attempt.
 True, but the reasonable alternative is to require a reply SMS to allow login.  
 Which, being over 3/4G, is less secure than requiring SSH key, or 2FA (e.g. google-authenticator).  
 These are (some of) the tools you should be using to prevent getting owned  
+Shameless plug: we have other PAM modules to help you not get hacked in the first place.  
 This tool is meant to help you detect in reasonable time the (probably silent) failures should you get compromised.  
 
 ## You will need a Twilio account and number
