@@ -1,6 +1,7 @@
 # Trex helper in case you get pwnd
 Will send you an SMS after a successful login (and logout).  
 Not before, to prevent spamming you on each botnet attempt.  
+(Also, see below)  
 
 ## But post login is too late if I really got pwnd!
 True, but the reasonable alternative is to require a reply SMS to allow login.  
